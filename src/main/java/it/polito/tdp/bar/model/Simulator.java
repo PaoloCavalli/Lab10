@@ -132,4 +132,7 @@ public class Simulator {
     		
     	}
     }
+    public Statistiche getStat() {
+    	return stat;
+    }
 }

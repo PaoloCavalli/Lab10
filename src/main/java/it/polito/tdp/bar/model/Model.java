@@ -7,9 +7,9 @@ public class Model {
 	public Model() {
 		this.sim = new Simulator();
 	}
-	//public Statistiche simula() {
-	//	sim.init();
-		//sim.run();
-		//return sim.getStat();
+	public Statistiche simula() {
+		sim.init();
+		sim.run();
+		return sim.getStat();
 	}
-//}
+}

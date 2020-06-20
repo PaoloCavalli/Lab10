@@ -54,8 +54,7 @@ public class Event implements Comparable<Event> {
 
 	@Override
 	public String toString() {
-		return type  +"["+  time+ "," + numPersone + ", durata=" + durata
-				+ ", tolleranza=" + tolleranza + ", tavolo=" + tavolo + "]";
+		 return type + " [" + time + ", " + numPersone + "pp, " + durata + ", " + (int) (tolleranza * 100) + "%]";
 	}
 
 	@Override
