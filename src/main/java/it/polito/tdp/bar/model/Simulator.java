@@ -20,7 +20,7 @@ public class Simulator {
 	private int NUM_MAX_PERSONE = 10;
 	private int DURATA_MIN = 60;
 	private int DURATA_MAX = 120;
-	private double TOLLERANZA_MAX = 0.0;
+	private double TOLLERANZA_MAX = 0.9;
 	private double OCCUPAZIONE_MIN = 0.5;
 	
 	//valori calcolati
