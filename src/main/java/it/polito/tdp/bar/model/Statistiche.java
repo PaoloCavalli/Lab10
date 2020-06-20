@@ -22,6 +22,11 @@ public class Statistiche {
 			}
 
 
+	public int getNumClientiTot() {
+		return numClientiTot;
+	}
+
+
 	public void addNumClientiTot(int numClientiTot) {
 		this.numClientiTot += numClientiTot;
 	}
