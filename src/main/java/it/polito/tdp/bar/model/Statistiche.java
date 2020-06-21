@@ -10,7 +10,7 @@ public class Statistiche {
 	 * @param numClientiSoddisfatti
 	 * @param numClientiInsoddisfatti
 	 */
-	public Statistiche(int numClientiTot, int numClientiSoddisfatti, int numClientiInsoddisfatti) {
+	public Statistiche() {
 		super();
 		this.numClientiTot = 0;
 		this.numClientiSoddisfatti = 0;
@@ -18,8 +18,7 @@ public class Statistiche {
 	}
 	
 	
-	public Statistiche() {
-			}
+	
 
 
 	public int getNumClientiTot() {
